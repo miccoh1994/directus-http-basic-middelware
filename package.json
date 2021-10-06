@@ -1,12 +1,16 @@
 {
   "name": "directus-http-basic-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Middleware to support http-basic auth mechanism, to support recieving data from older systems",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+		"type": "git",
+		"url": "git+https://github.com/miccoh1994/directus-http-basic-middelware.git"
+	},
+  "author": "Michael Cohen",
   "license": "ISC",
   "devDependencies": {
     "rollup": "^2.58.0"
